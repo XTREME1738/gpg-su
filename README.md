@@ -8,6 +8,28 @@ PRs are welcomed for features, etc
 I don't know why anyone would use this but I only wanted it because I needed a way to get past sudo if i ever broke my 2FA or forgot my password so its good for that although not the best if you forget the GPG key passphrase
 So instead of using a password to login you can login with a gpg key and a passphrase...
 
+# Setup
+Generate a GPG key pair
+```
+gpg --full-generate-key
+```
+Export the keys
+```
+sudo gpg --armor --export <your_key_id> > /etc/gpg-su/<your_user_id>.gpg
+```
+```
+gpg --armor --export-secret-keys <your_key_id> > <file_location>
+```
+Set the permissions
+```
+sudo chmod 600 /etc/gpg-su/<your_user_id>.gpg
+```
+You might also need to chown the public key as root:root
+```
+chmod 600 <private_key_location>
+```
+Now you can run it
+
 # Requirements
 - Sudo
 - Node.JS
