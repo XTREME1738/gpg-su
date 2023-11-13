@@ -1,3 +1,6 @@
+gpg-su
+*.cjs
+package-lock.json
 # ---> Node
 # Logs
 logs
