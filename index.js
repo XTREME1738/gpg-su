@@ -3,7 +3,7 @@ GnuPG / PGP user authentication - originl Node.JS version
 Licensed under MIT and using opengpg and readline-sync libraries
 Created by XTREME
 codeberg.org/XTREME/gpg-su
-github.com/XTREME/gpg-su
+github.com/XTREME1738/gpg-su
 Made 12 Nov 2023 23:30 BST
 Last Modified 13 Nov 2023 01:50 BST
 */
