@@ -1,4 +1,6 @@
 # GnuPG / PGP user authentication in Node.JS
+I am working on integrating this into a PAM module or just making a keyfile authentication module since Im finding it hard to find a GPG/PGP library for C which has good documentation
+
 This program was developed purely for fun as I just wanted to be able to authenticate with GPG keys
 
 This is the orginal Node.JS version I tried to make a verion in C but could not find a well-documented library
